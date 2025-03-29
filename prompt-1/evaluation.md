@@ -10,7 +10,7 @@
 ### **Code Correctness & Execution**  
 - **Rating: Major Issue**  
 - **Proof of Error**:  
-  ![Proof of Work] (prompt-1/image-2.png)
+  ![Proof of Work] (image-2.png)
 - **Explanation**:  
   - The first `setAttribute()` call returns `undefined`, preventing further method chaining.  
   - The code will not execute as intended and will throw an error.  
@@ -33,7 +33,7 @@ The response fails due to incorrect method chaining and a misunderstanding of `s
 ### **Code Correctness & Execution**  
 - **Review: No Issues**  
 - **Proof of Correctness**:  
-  ![Proof of Work] (prompt-1/image-2.png)
+  ![Proof of Work] (/image-2.png)
 - **Explanation**:  
   - The function correctly creates an element and applies attributes dynamically.  
   - It provides a clean and scalable solution that avoids method chaining issues.  
